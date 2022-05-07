@@ -7,4 +7,7 @@ target_include_directories(MathFunctions
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-message("CMAKE_CURRENT_SOURCE_DIR IS ${CMAKE_CURRENT_SOURCE_DIR}")
+install(TARGETS MathFunctions DESTINATION lib)
+install(FILES MathFunctions.h DESTINATION include)
+
+
